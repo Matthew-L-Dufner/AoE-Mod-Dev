@@ -1,4 +1,4 @@
-modded class LoadingScreen //LoadingScreen by S4MT3K
+modded class LoadingScreen //LoadingScreen by S4MT3K 
 {
 	void LoadingScreen(DayZGame game)
 	{
@@ -7,8 +7,7 @@ modded class LoadingScreen //LoadingScreen by S4MT3K
 		m_ImageLogoMid.Show(false);
 		m_ImageLogoCorner.Show(false);
 		m_ImageBackground.LoadImageFile(0, GetRandomLoadingBackground());
-		m_ImageBackground.LoadMaskTexture(""); //Disabling the Fucking Watermark
-		//ProgressAsync.SetProgressData(m_ProgressLoading);
+		m_ImageBackground.LoadMaskTexture(""); 
 		ProgressAsync.SetUserData(m_ImageBackground);
 	}
 
@@ -73,7 +72,7 @@ modded class LoadingScreen //LoadingScreen by S4MT3K
 	string GetRandomLoadingBackground()
 	{
 		private int rand = Math.RandomIntInclusive(0, 17);
-		const string images[] = //limited to one for now (inserted it because of possible multiple loading screens)
+		const string images[] = 
 		{
 				"AoEServerMods/PreloadScript/EnochLoadingScreen.paa",
 				"AoEServerMods/PreloadScript/AoeCommunity.paa",
@@ -112,7 +111,7 @@ modded class LoginQueueBase
 	string GetRandomLoadingBackgroundLoginQueueBase()
 	{
 		private int rand = Math.RandomIntInclusive(0, 17);
-		const string images[] = //limited to one for now (inserted it because of possible multiple loading screens)
+		const string images[] = 
 		{
 				"AoEServerMods/PreloadScript/EnochLoadingScreen.paa",
 				"AoEServerMods/PreloadScript/AoeCommunity.paa",
@@ -151,7 +150,7 @@ modded class LoginTimeBase
 	string GetRandomLoadingBackgroundLoginTimeBase()
 	{
 		private int rand = Math.RandomIntInclusive(0, 17);
-		const string images[] = //limited to one for now (inserted it because of possible multiple loading screens)
+		const string images[] = 
 		{
 				"AoEServerMods/PreloadScript/EnochLoadingScreen.paa",
 				"AoEServerMods/PreloadScript/AoeCommunity.paa",

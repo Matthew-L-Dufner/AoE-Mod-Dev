@@ -10,6 +10,6 @@ class ServerLogo
 		m_image = ImageWidget.Cast(m_root.FindAnyWidget("ServerLogo"));
 		m_image.LoadImageFile(0, "AoEServerMods\\PreloadScript\\EnochLogo512x256.paa");
 		m_image.SetAlpha(1.0);
-		//m_image.SetColor(ARGB(25, 72, 61, 139));
+		
 	}
 }
