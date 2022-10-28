@@ -1,0 +1,36 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  ImageWidgetClass ServerLogo {
+   position 1747.94006 1000
+   size 162.056 75
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   mode blend
+   "src alpha" 1
+   stretch 1
+  }
+  TextWidgetClass TextWidget {
+   position 0 0
+   size 0.6488 0.0901
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style Normal
+   text ""
+   "exact text" 1
+   "exact text size" 20
+   "text halign" center
+   "text valign" center
+  }
+ }
+}

@@ -1,0 +1,32 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  ImageWidgetClass LoadingImage {
+   position -0.61385 1.24548
+   size 1960.81006 1080.34009
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   mode blend
+   "src alpha" 1
+   stretch 1
+   {
+    TextWidgetClass TextiText {
+     ignorepointer 1
+     position -2.50842 3.77399
+     size 27.4028 17.7496
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+   }
+  }
+ }
+}
